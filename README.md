@@ -98,10 +98,25 @@ La media nos dice cuánto tiempo pasa, en promedio, entre un latido del corazón
 
 ![image](https://github.com/user-attachments/assets/709a9869-0d24-4bf2-81a5-586371811805)
 
- 
+ # Aplicación de transformada Wavelet 
+
+Para este laboratorio se uso una transformada wavelet, esto para poder identificar patrones y componentes transitorios en el ecg, para este caso las ondas pqrs y los intervalos R-R, para la señal ecg se decidió usar una morlet el cual permite tener un análisis de frecuencia y tiempo balanceado. Esta resolución permite observar la variación en la frecuencia cardiaca de mejor manera debido a su resolución temporal y espacial, esto también ayuda a observar la variabilidad de la frecuencia cardiaca, lo que permite observar como esta responde a las afecciones del sistema simpático y parasimpático en el corazón.
+Para el caso de la señal ECG tomada, en el código la implementación de la transformada wavelet es a partir de una libreria la cual permite aplicar diferentes tipos de transformadas wavelet a una señal, en este caso una morlet.
+Finalmente definiendo valores para la banda de frecuencias altas y la banda de frecuencias bajas para realizar la comparación gráfica entre estas 
 
 
+![image](https://github.com/user-attachments/assets/09873359-ee78-4e7b-b933-2471c34a832f)
 
+ ![image](https://github.com/user-attachments/assets/6bdcb8ba-3125-4b4f-b9ec-c42ab1a9d5b4)
 
+![image](https://github.com/user-attachments/assets/3e51db2d-25ec-4cd5-b763-c7895c8d6a9c)
+
+# Conclusiones
+Se cumple con trabajar correctamente e implementar un análisis preciso a la señal ECG y observar la afección de los sistemas simpáticos y parasimpáticos en el corazón, como estos se observan en un análisis de potencia y los cambios que estos generan en la señal del ECG, de la mano con el análisis de los sistemas nerviosos autónomos, se observa el manejo del HRV mediante los intervalos R-R que se presentan en la señal, todo mediante herramientas de procesamiento digital de señales y técnicas de adquisición de señales mediante sistemas. 
+# Referencias 
+Navarro, X. (2002). Fisiología del sistema nervioso autónomo. Revista Neurológica, 35(6), 553-562.
+Rosales-Soto, G., Corsini-Pino, R., Monsálves-Álvarez, M., & Yáñez-Sepúlveda, R. (2016). Respuesta del balance simpático-parasimpático de la variabilidad de la frecuencia cardíaca. Revista andaluza de medicina del deporte, 9(4), 143-147.
+de Señales, A. D. T. (2006). Introducción a la Transformada Wavelet. Departamento de Señales y sistemas. Universidad de Navarra
+Montoya, J. R. A. (2001). La transformada wavelet. Revista de la Universidad de Mendoza.
 
 
